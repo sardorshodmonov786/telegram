@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Telegram</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/fa/css/all.min.css" />
+</head>
+<body>
+	<div class="telegram">
+		<div class="conteiner-fluid">
+			<div class="row no-gutters">
+				<div class="col-lg-3">
+					<div class="chat">
+
+						<header class="fixed-top fixed-top--chat bg-dark p-2 d-flex">
+							<button class="btn fas fa-bars" data-toggle="modal"  data-target="#accountmodal"></button>
+							<form class="flex-grow-1" action="https://htmlacademy.ru" method="GET">
+								<input class="form-control bg-dark text-white" type="search" name="search" placeholder="search" required />
+							</form>
+							<button class="ml-auto btn bg-dark">
+								<span class="fas fa-lock-open"></span>
+							</button>
+						</header>
+
+						<div class="list-group list-group-flush pt-1">
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/изб.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1">
+									<div class="d-flex">
+										<h5 class="channel-name m-0 flex-grow-1">Избранное</h5>
+										<span class="time">00:07</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">😎</p>
+										<span class="fas fa-thumbtack mr-2"></span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/xuliganistan.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1">
+									<div class="d-flex">
+										<span class="fas fa-bullhorn mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">ӾɄⱠł₲₳₦ł₴₮₳₦</h5>
+										<span class="time">09:27</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">New music Singer JONY 🎧.</p>
+										<span class="sms badge badge-primary">1192</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info text-white list-group-item list-group-item-action d-flex align-items-center p-1 active">
+								<img class="rounded-circle mr-2" src="img/najot.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1">
+									<div class="d-flex flex-grow-1">
+										<span class="fas fa-users mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Full stack 🖥</h5>
+										<span class="time">09:27</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text channel-text--active clip m-0">Uzur biroz kech qolyapman.</p>
+										<span class="fas fa-check text-success"></span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<div class="online">
+									<img class="rounded-circle mr-2" src="img/keneyi.jpg" alt="img-account" width="43" />
+								</div>
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Keneyi</h5>
+										<span class="time">09:25</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">. . . typing</p>
+										<span class="sms badge badge-primary">1</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/bot.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1">
+									<div class="d-flex">
+										<span class="fas fa-robot mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">X-O</h5>
+										<span class="time">15:33</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">You win !👏👏👏</p>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/doppi.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-bullhorn mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Mr Doppi</h5>
+										<span class="time">15:12</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Video 🎬 Madina Muxtorova va uning o'g'li masalasi jonga teydi</p>
+										<span class="sms badge badge-primary">9</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/habib.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-bullhorn mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Khabib Nurmugamedov 🦅</h5>
+										<span class="time">18:03</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Tony Ferguson vs Khabib Nurmugamedov jangi </p>
+										<span class="sms badge badge-light">401</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/ismoil.jpg" alt="img-account" width="43" height="50" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Rustamaka</h5>
+										<span class="time">09:19</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Qalesan ozin yaxwimisa</p>
+										<span class="sms badge badge-primary">2</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/ufc.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-bullhorn mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">🥊 UFC | MMA | BOXING</h5>
+										<span class="time">21:45</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Murad Khantorayev 🐻 & Freder Emilionko</p>
+										<span class="sms badge badge-primary">126</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/otaw.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Otaw drug</h5>
+										<span class="time">10:18</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Neccida cqasan oqwindan, manbeta 1ta sani kutvomz</p>
+										<span class="sms badge badge-primary">4</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/kursdowla.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-users mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Kursdowla | 💪</h5>
+										<span class="time">00:41</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Nma gap grupadegla. uxlamaganla bomi.😂</p>
+										<span class="sms badge badge-primary">9293</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/barca.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-bullhorn mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Barcelona | Rasmiy kanal</h5>
+										<span class="time">13:10</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Real Madrid 0:5 Barcelona o'yinidan lavhalar.</p>
+										<span class="sms badge badge-light">4</span>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/b.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Botir Ibrohim</h5>
+										<span class="time">20:10</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Clear history</p>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/m.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Muhammad Javohiraka</h5>
+										<span class="time">9:19</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Clear history</p>
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="channel-info bg-dark text-white list-group-item list-group-item-action d-flex align-items-center p-1">
+								<img class="rounded-circle mr-2" src="img/tg.jpg" alt="img-account" width="43" />
+								<div class="name-info flex-grow-1 flex-column">
+									<div class="d-flex">
+										<span class="fas fa-user mr-2"></span>
+										<h5 class="channel-name m-0 flex-grow-1">Sarvar</h5>
+										<span class="time">17:59</span>
+									</div>	
+									<div class="d-flex align-items-center">
+										<p class="channel-text clip m-0">Clear history</p>
+										<span class="sms badge badge-light"></span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div><!-- /.col-lg-3 -->
+
+
+				<div class="col-lg-7">					
+					<header class="fixed-top fixed-top--group bg-dark text-white d-flex align-items-center">
+
+						<a href="#" class="header-heading text-white flex-grow-1 p-1 mx-1" data-toggle="modal" data-target="#modal-group">
+							Full stack 🖥
+							<p class="members">13 members</p>
+						</a>
+
+						<button class="btn btn-dark text-white">
+							<span class="fas fa-search"></span>
+						</button>
+						<button class="btn btn-dark text-white">
+							<span class="fas fa-columns"></span>
+						</button>
+						<button class=" btn btn-dark text-white"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="fas fa-ellipsis-v"></span>
+						</button>
+
+						<div class="bg-dark dropdown-menu dropdown-menu-right">
+							<button class="dropdown-item" type="button">View group info</button>
+							<button class="dropdown-item" type="button">Enable notifications</button>
+							<button class="dropdown-item" type="button">Manage group</button>
+							<button class="dropdown-item" type="button">Add members</button>
+							<button class="dropdown-item" type="button">Create poll</button>
+							<button class="dropdown-item" type="button">Export chat history</button>
+							<button class="dropdown-item" type="button">Clear hisory</button>
+							<button class="dropdown-item" type="button">Leave group</button>
+						</div>
+
+					</header>
+
+					<section class="group-body">
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">Assalomu Aleykum! hammaga</p>
+								<p class="chat-time">15:39
+									<span class="ml-2 check fas fa-check-double text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">Scroll barri ozgartiradgan kod qanaqedi?</p>
+								<p class="chat-time">15:40
+									<span class="ml-2 check fas fa-check-double text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/m.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-danger">Muhammad Javohiraka</h6>
+								<p class="load m-0 p-0 group-msg">		
+									::-webkit-scrollbar {<br>
+									  width: 3px;<br>
+									}<br>
+									::-webkit-scrollbar-track {<br>
+									  background: #f1f1f1; <br>
+									}<br>
+									::-webkit-scrollbar-thumb {<br>
+										border-radius: 10px;<br>
+									  background: #888; <br>
+									}<br>
+									::-webkit-scrollbar-thumb:hover {<br>
+									  background: #555; <br>
+									}<br>
+									.online::after{<br>
+										position: absolute;<br>
+										bottom: 5px;<br>
+										left: 11.5%;<br>
+										width: 11px;<br>
+										height: 12px;<br>
+										background-color: #3b75bc;<br>
+										border: 1px solid #000;<br>
+										border-radius: 50%;<br>
+										content: ""<br>
+									}
+								</p>
+								<p class="chat-time">09:43</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">#sovol ScrollBarri kodlarini ozgartirsek buzilib ketmidimi ?</p>
+								<p class="chat-time">15:44
+									<span class="ml-2 check fas fa-check-double text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/m.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-danger">Muhammad Javohiraka</h6>
+								<p class="load m-0 p-0 group-msg">Yoq buzilmidi</p>
+								<p class="chat-time">15:44</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">Raxmat kottakon</p>
+								<p class="chat-time">17:21
+									<span class="ml-2 check fas fa-check-double text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/hojiakbaraka.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-info">HOJIAKBAR SHUKUROV</h6>
+								<img class="msg-img" src="img/kod.jpg" alt="kod">
+								<p class="group-msg">#savol pasdagi linkdi hover qiganimda  bgcolorni toliq omyapti qanday qilib toliq oladigan qilish mumkin?</p>
+								<p class="chat-time">19:49</p>
+							</div>
+						</div>
+
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/dildorapa.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name d-block text-warning">Dildorapa</h6>
+								<div class="d-flex reply">
+									<img class="msg-reply" src="img/kod.jpg" alt="kod" width="55" height="44">
+									<div class="overflow-hidden">
+										<p class="user-name-reply text-info m-0">HOJIAKBAR SHUKUROV</p>
+										<p class="group-msg clip m-0">#savol pasdagi linkdi hover qiganimda  bgcolorni toliq omyapti qanday qilib toliq oladigan qilish mumkin?</p>
+									</div>
+								</div>
+								<img class="msg-img" src="img/kod.jpg" alt="rasm">
+								<p class="load m-0 p-0 group-msg">Шуни каробка (дивни) озида padding боса кере Chrome да карабкорин инспект килиб Кайсидур дивда бор</p>
+								<p class="chat-time">20:32</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/hojiakbaraka.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-info">HOJIAKBAR SHUKUROV</h6>
+									<div class="d-flex reply">
+									<img class="msg-reply" src="img/kod.jpg" alt="kod" width="55" height="44">
+									<div class="overflow-hidden">
+										<p class="user-name-reply text-info m-0 text-warning">Dildorapa</p>
+										<p class="group-msg clip m-0">Шуни каробка (дивни) озида padding боса кере Chrome да карабкорин инспект килиб Кайсидур дивда бор</p>
+									</div>
+								</div>
+								<p class="load m-0 p-0 group-msg">boldi topdim maslahat uchun rahmat 😊😊😊</p>
+								<p class="chat-time">21:19</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">Hammaga xayrli tun yaxw yotb turila 🌙</p>
+								<p class="chat-time">22:33
+									<span class="ml-2 check fas fa-check-double text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+						<p class="date">10 January</p>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/boburmirzo.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-primary">Бобурмирзо</h6>
+								<p class="load m-0 p-0 group-msg">Dars Videolarini tawavorila</p>
+								<p class="chat-time">08:17</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end">
+							<img class="rounded-circle mr-3" src="img/m.jpg" alt="img" width="45" height="45">
+							<div class="msg msg-before bg-dark">
+								<h6 class="user-name text-danger">Muhammad Javohiraka</h6>
+								<p class="reply text-white">Dars videolarini tawavorila</p>
+								<p class="load m-0 p-0 group-msg text-white">Full stack materiallar kanalida bor !</p>
+								<p class="chat-time">09:00</p>
+							</div>
+						</div>
+
+						<div class="msg-user d-flex align-items-end justify-content-end">
+							<div class="msg msg-mine bg-dark text-white">
+								<p class="load m-0 p-0 group-msg">Uzur biroz kech qolyapman</p>
+								<p class="chat-time">09:27
+									<span class="ml-2 check fas fa-check text-success"></span>
+								</p>
+							</div>
+							<img class="rounded-circle ml-3" src="img/account.jpg" alt="img" width="45" height="45">
+						</div>
+
+					</section>
+
+					<footer class="footer bg-dark text-white p-2">
+
+						<form class="d-flex" action="https://htmlacademy.ru" method="POST">
+
+							<div class="custom-file custom-file--group">
+								<input type="file" class="custom-file-input" id="customFile">
+								<label class="bg-dark border-0 custom-file-label" for="customFile">
+									<span class="fas fa-paperclip"></span>
+								</label>
+							</div>
+
+							<input class="border-0 form-control bg-dark text-white" type="text" name="write msg" placeholder="Write a massege ...">
+							<button class="smile btn bg-dark" type="button">😜</button>
+							<button class="send btn bg-dark fas fa-paper-plane"></button>
+
+						</form>
+
+					</footer>
+
+				</div><!-- col-lg-7 -->
+
+				<div class="col-lg-2 bg-dark">
+					<header class="d-flex py-2 fixed-top fixed-top--smile">
+						<button class="btn btn-dark text-white emoji-active">EMOJI</button>	
+						<button class="btn btn-dark text-white">STICKERS</button>	
+						<button class="btn btn-dark text-white">GIFS</button>	
+					</header>
+					<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+
+
+					  <h4 id="list-item-1"></h4>
+					  <p class="smilies">
+					  	<a href="#">😂</a><a href="#">🤦‍♂</a><a href="#">👍</a><a href="#">😁</a><a href="#">👊</a><a href="#">💪</a><a href="#">⚜️</a><a href="#">😎</a><a href="#">😡</a><a href="#">🤟</a><a href="#">🖤</a><a href="#">♣️</a><a href="#">🔪</a><a href="#">🍑</a><a href="#">🦁</a><a href="#">🎧</a><a href="#">🥊</a><a href="#">😉</a><a href="#">😜</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-2">People</h4>
+					  <p class="smilies">
+					  	<a href="#">😀</a><a href="#">😃</a><a href="#">😄</a><a href="#">😁</a><a href="#">😆</a><a href="#">😅</a><a href="#">😂</a><a href="#">🤣</a><a href="#">😊</a><a href="#">😇</a><a href="#">🙂</a><a href="#">🙃</a><a href="#">😉</a><a href="#">😌</a><a href="#">😍</a><a href="#">🥰</a><a href="#">😘</a><a href="#">😗</a><a href="#">😙</a><a href="#">😚</a><a href="#">😋</a><a href="#">😛</a><a href="#">😝</a><a href="#">😜</a><a href="#">🤪</a><a href="#">🤨</a><a href="#">🧐</a><a href="#">🤓</a><a href="#">😎</a><a href="#">🤩</a><a href="#">🥳</a><a href="#">😏</a><a href="#">😒</a><a href="#">😞</a><a href="#">😔</a><a href="#">😟</a><a href="#">😕</a><a href="#">🙁</a><a href="#">☹️</a><a href="#">😣</a><a href="#">😖</a><a href="#">😫</a><a href="#">😩</a><a href="#">🥺</a><a href="#">😢</a><a href="#">😭</a><a href="#">😤</a><a href="#">😠</a><a href="#">😡</a><a href="#">🤬</a><a href="#">🤯</a><a href="#">😳</a><a href="#">🥵</a><a href="#">🥶</a><a href="#">😱</a><a href="#">😨</a><a href="#">😰</a><a href="#">😥</a><a href="#">😓</a><a href="#">🤗</a><a href="#">🤔</a><a href="#">🤭</a><a href="#">🤫</a><a href="#">🤥</a><a href="#">😶</a><a href="#">😐</a><a href="#">😑</a><a href="#">😬</a><a href="#">🙄</a><a href="#">😯</a><a href="#">😦</a><a href="#">😧</a><a href="#">😮</a><a href="#">😲</a><a href="#">😴</a><a href="#">🤤</a><a href="#">😪</a><a href="#">😵</a><a href="#">🤐</a><a href="#">🥴</a><a href="#">🤢</a><a href="#">🤮</a><a href="#">🤧</a><a href="#">😷</a><a href="#">🤒</a><a href="#">🤕</a><a href="#">🤑</a><a href="#">🤠</a><a href="#">😈</a><a href="#">👿</a><a href="#">👹</a><a href="#">👺</a><a href="#">🤡</a><a href="#">👻</a><a href="#">☠️</a><a href="#">👽</a><a href="#">👾</a><a href="#">🤖</a><a href="#">🎃</a><a href="#">😺</a><a href="#">😸</a><a href="#">😹</a><a href="#">😻</a><a href="#">😼</a><a href="#">😽</a><a href="#">🙀</a><a href="#">😿</a><a href="#">😾</a><a href="#">🤲</a><a href="#">👐</a><a href="#">🙌</a><a href="#">👏</a><a href="#">🤝</a><a href="#">👍</a><a href="#">👎</a><a href="#">👊</a><a href="#">✊</a><a href="#">🤛</a><a href="#">🤜</a><a href="#">🤞</a><a href="#">✌️</a><a href="#">🤟</a><a href="#">🤘</a><a href="#">👌</a><a href="#">👈</a><a href="#">👉</a><a href="#">👆</a><a href="#">👇</a><a href="#">☝️</a><a href="#">✋</a><a href="#">🤚</a><a href="#">🖐</a><a href="#">🖖</a><a href="#">👋</a><a href="#">🤙</a><a href="#">💪</a><a href="#">🖕</a><a href="#">✍️</a><a href="#">🙏</a><a href="#">🦶</a><a href="#">🦵</a><a href="#">👤</a><a href="#">💄</a><a href="#">💋</a><a href="#">👄</a><a href="#">🦷</a><a href="#">👅</a><a href="#">👂</a><a href="#">👃</a><a href="#">👣</a><a href="#">👁</a><a href="#">👀</a><a href="#">🧠</a><a href="#">🗣</a><a href="#">👤</a><a href="#">👥</a><a href="#">👶</a><a href="#">👧</a><a href="#">🧒</a><a href="#">👦</a><a href="#">👩</a><a href="#">🧑</a><a href="#">👨</a><a href="#">👩‍🦱</a><a href="#">👨‍🦱</a><a href="#">👩‍🦰</a><a href="#">👨‍🦰</a><a href="#">👱‍♀️</a><a href="#">👱‍♂️</a><a href="#">👩‍🦳</a><a href="#">👨‍🦳</a><a href="#">👩‍🦲</a><a href="#">👨‍🦲</a><a href="#">🧔</a><a href="#">👵</a><a href="#">🧓</a><a href="#">👴</a><a href="#">👲</a><a href="#">👳‍♀️</a><a href="#">👳‍♂️</a><a href="#">🧕</a><a href="#">👮‍♀️</a><a href="#">👮‍♂️</a><a href="#">👷‍♀️</a><a href="#">👷‍♂️</a><a href="#">💂‍♀️</a><a href="#">💂‍♂️</a><a href="#">🕵️‍♀️</a><a href="#">🕵️‍♂️</a><a href="#">👩‍⚕️</a><a href="#">👨‍⚕️</a><a href="#">👩‍🌾</a><a href="#">👨‍🌾</a><a href="#">👩‍🍳</a><a href="#">👩‍🎓</a><a href="#">👩‍🎤</a><a href="#">👨‍🎤</a><a href="#">👩‍🏫</a><a href="#">👨‍🏫</a><a href="#">👩‍🏭</a><a href="#">👨‍🏭</a><a href="#">👩‍💻</a><a href="#">👨‍💻</a><a href="#">👩‍💼</a><a href="#">👨‍💼</a><a href="#">👩‍🔧</a><a href="#">👨‍🔧</a><a href="#">👩‍🔬</a><a href="#">👨‍🔬</a><a href="#">👩‍🎨</a><a href="#">👨‍🎨</a><a href="#">👩‍🚒</a><a href="#">👨‍🚒</a><a href="#">👩‍✈️</a><a href="#">👨‍✈️</a><a href="#">👩‍🚀</a><a href="#">👨‍🚀</a><a href="#">👩‍⚖️</a><a href="#">👨‍⚖️</a><a href="#">👰</a><a href="#">🤵</a><a href="#">👸</a><a href="#">🤴</a><a href="#">🦸‍♀️</a><a href="#">🦸‍♂️</a><a href="#">🦹‍♀️</a><a href="#">🦹‍♂️</a><a href="#">🤶</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-3">Nature</h4>
+					  <p class="smilies">
+					  	<a href="#">🐶</a><a href="#">🐱</a><a href="#">🐭</a><a href="#">🐹</a><a href="#">🐰</a><a href="#">🦊</a><a href="#">🐻</a><a href="#">🐼</a><a href="#">🐨</a><a href="#">🐯</a><a href="#">🦁</a><a href="#">🐮</a><a href="#">🐵</a><a href="#">🙈</a><a href="#">🙉</a><a href="#">🙊</a><a href="#">🐒</a><a href="#">🐔</a><a href="#">🐧</a><a href="#">🐦</a><a href="#">🐤</a><a href="#">🐣</a><a href="#">🐥</a><a href="#">🦆</a><a href="#">🦅</a><a href="#">🐶</a><a href="#">🐱</a><a href="#">🐭</a><a href="#">🐹</a><a href="#">🐰</a><a href="#">🦊</a><a href="#">🐻</a><a href="#">🐼</a><a href="#">🐨</a><a href="#">🐯</a><a href="#">🦁</a><a href="#">🐮</a><a href="#">🐵</a><a href="#">🙈</a><a href="#">🙉</a><a href="#">🙊</a><a href="#">🐒</a><a href="#">🐔</a><a href="#">🐧</a><a href="#">🐦</a><a href="#">🐤</a><a href="#">🐣</a><a href="#">🐥</a><a href="#">🦆</a><a href="#">🦅</a><a href="#">🐶</a><a href="#">🐱</a><a href="#">🐭</a><a href="#">🐹</a><a href="#">🐰</a><a href="#">🦊</a><a href="#">🐻</a><a href="#">🐼</a><a href="#">🐨</a><a href="#">🐯</a><a href="#">🦁</a><a href="#">🐮</a><a href="#">🐵</a><a href="#">🙈</a><a href="#">🙉</a><a href="#">🙊</a><a href="#">🐒</a><a href="#">🐔</a><a href="#">🐧</a><a href="#">🐦</a><a href="#">🐤</a><a href="#">🐣</a><a href="#">🐥</a><a href="#">🦆</a><a href="#">🦅</a><a href="#">🐶</a><a href="#">🐱</a><a href="#">🐭</a><a href="#">🐹</a><a href="#">🐰</a><a href="#">🦊</a><a href="#">🐻</a><a href="#">🐼</a><a href="#">🐨</a><a href="#">🐯</a><a href="#">🦁</a><a href="#">🐮</a><a href="#">🐵</a><a href="#">🙈</a><a href="#">🙉</a><a href="#">🙊</a><a href="#">🐒</a><a href="#">🐔</a><a href="#">🐧</a><a href="#">🐦</a><a href="#">🐤</a><a href="#">🐣</a><a href="#">🐥</a><a href="#">🦆</a><a href="#">🦅</a><a href="#">🐶</a><a href="#">🐱</a><a href="#">🐭</a><a href="#">🐹</a><a href="#">🐰</a><a href="#">🦊</a><a href="#">🐻</a><a href="#">🐼</a><a href="#">🐨</a><a href="#">🐯</a><a href="#">🦁</a><a href="#">🐮</a><a href="#">🐵</a><a href="#">🙈</a><a href="#">🙉</a><a href="#">🙊</a><a href="#">🐒</a><a href="#">🐔</a><a href="#">🐧</a><a href="#">🐦</a><a href="#">🐤</a><a href="#">🐣</a><a href="#">🐥</a><a href="#">🦆</a><a href="#">🦅</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-4">Food & Drink</h4>
+					  <p class="smilies">
+					  	<a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a><a href="#">🍏</a><a href="#">🍎</a><a href="#">🍐</a><a href="#">🍊</a><a href="#">🍋</a><a href="#">🍌</a><a href="#">🍉</a><a href="#">🍇</a><a href="#">🍓</a><a href="#">🍈</a><a href="#">🍒</a><a href="#">🍑</a><a href="#">🥭</a><a href="#">🍍</a><a href="#">🥥</a><a href="#">🥝</a><a href="#">🍅</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-5">Activity</h4>
+					  <p class="smilies">
+					  	<a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a><a href="#">⚽️</a><a href="#">🏀</a><a href="#">🏈</a><a href="#">⚾️</a><a href="#">🥎</a><a href="#">🎾</a><a href="#">🏐</a><a href="#">🏉</a><a href="#">🥏</a><a href="#">🎱</a><a href="#">🏓</a><a href="#">🏸</a><a href="#">🏒</a><a href="#">🏑</a><a href="#">🥍</a><a href="#">🏏</a><a href="#">🏹</a><a href="#">⛳️</a><a href="#">🥅</a>  
+					  </p>
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-6">Travel & Places</h4>
+					  <p class="smilies">					  	
+					  	<a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a><a href="#">👩‍✈️</a><a href="#">🚗</a><a href="#">🚕</a><a href="#">🚙</a><a href="#">🚌</a><a href="#">🏎</a><a href="#">🚓</a><a href="#">🚑</a><a href="#">🚒</a><a href="#">🚐</a><a href="#">🚚</a><a href="#">🚛</a><a href="#">🚜</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-7">Object</h4>
+					  <p class="smilies">					  	
+					  	<a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a>	  	<a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a><a href="#">⌚️</a><a href="#">📱</a><a href="#">📲</a><a href="#">💻</a><a href="#">⌨️</a><a href="#">⌨️</a><a href="#">🖥</a><a href="#">🖨</a><a href="#">🖱</a><a href="#">🖲</a><a href="#">🕹</a><a href="#">🗜</a><a href="#">💽</a><a href="#">💾</a><a href="#">💿</a><a href="#">📀</a><a href="#">📼</a><a href="#">📷</a><a href="#">📸</a><a href="#">📹</a>
+					  </p>
+
+
+					  <h4 class="bg-dark mx-3 my-0" id="list-item-8">Symbols & Flags</h4>
+					  <p class="smilies">					  	
+					  	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>	<a href="#">🖤</a><a href="#">☪️</a><a href="#">💟</a><a href="#">❌</a><a href="#">⭕️</a><a href="#">💯</a><a href="#">⚜️</a><a href="#">🔱</a><a href="#">💭</a><a href="#">📣</a><a href="#">🕑</a><a href="#">🕒</a><a href="#">🕚</a><a href="#">🏁</a><a href="#">🏴‍☠️</a><a href="#">🇦🇷</a><a href="#">🇧🇷</a><a href="#">🇨🇦</a><a href="#">🇷🇺</a><a href="#">🇵🇹</a><a href="#">🇺🇸</a><a href="#">🇹🇷</a><a href="#">🇺🇿</a>
+					  </p>
+					</div>	
+
+
+					<div id="list-example" class="list-group emojies">
+					  <a class="list-group-item list-group-item-action" href="#list-item-1">🕒</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-2">😁</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-3">😺</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-4">🍎</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-5">⚾️</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-6">🚔</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-7">💡</a>
+					  <a class="list-group-item list-group-item-action" href="#list-item-8">🖤</a>
+					</div>
+
+				</div><!-- col-lg-2 -->
+			</div><!-- /.row -->
+		</div><!-- /.conteiner-fluid -->
+	</div><!-- /.telegram -->
+
+	<!-- ====================== -->
+	<!-- MODAL GROUP -->
+	<!-- ====================== -->
+	<div class="modal fade" id="modal-group" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content group-content">
+
+				<div class="modal-header border-0 d-block align-items-center bg-dark text-white">
+
+					<div class="d-flex flex-grow-1 align-items-center">	 
+						<h6 class="modal-title flex-grow-1 m-0" id="exampleModalScrollableTitle">Group info</h6>
+						<button class="btn btn-dark">
+							<span class="uchnuqta fas fa-ellipsis-v"></span>
+						</button>       	
+						<button type="button" class="btn btn-dark exit" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+				</div>
+
+				<div class="modal-body p-0 bg-dark">
+					<div class="d-flex align-items-center m-3">	
+					<a href="#">
+						<img class="rounded-circle mr-3" src="img/najot.jpg" alt="rasm" width="55" height="55">
+					</a>	        	
+						<div>
+							<h6 class="text-white">Full stack 🖥</h6>
+							<p class="members">13 members</p>
+						</div>
+					</div>
+					<label class="notifications align-items-center list-group-item list-group-item-action bg-dark d-flex text-white">
+						<span class="fas fa-bell mr-3	"></span>
+						<p class="flex-grow-1 m-0">Notifications</p>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" checked id="customSwitch1">
+							<div class="custom-control-label" for="customSwitch1"></div>							
+						</div>
+					</label>
+					<div class="list-group list-group-flush medies p-0">
+						<a class="list-group-item m-0 d-flex align-items-center bg-dark text-white" href="#">
+							<span class="mr-3 icon-media fas fa-image"></span>
+							<p class="media m-0">187	Photos</p>
+						</a>
+						<a class="list-group-item m-0 d-flex align-items-center bg-dark text-white" href="#">
+							<span class="mr-3 icon-media fas fa-video"></span>
+							<p class="media m-0">20	Videos</p>
+						</a>
+						<a class="list-group-item m-0 d-flex align-items-center bg-dark text-white" href="#">
+							<span class="mr-3 icon-media fas fa-file"></span>
+							<p class="media m-0">301	Files</p>
+						</a>
+						<a class="list-group-item m-0 d-flex align-items-center bg-dark text-white" href="#">
+							<span class="mr-3 icon-media fas fa-link"></span>
+							<p class="media m-0">160	Shared links</p>
+						</a>
+						<a class="list-group-item m-0 d-flex align-items-center bg-dark text-white" href="#">
+							<span class="mr-3 icon-media fas fa-microphone"></span>
+							<p class="media m-0">18	Voice messages</p>
+						</a>					  
+					</div>					
+					<div class="d-flex align-items-center bg-dark p-3">
+						<div class="d-flex align-items-center flex-grow-1">
+							<span class="fas fa-user-friends icon-members mr-3"></span>
+							<p class="text-white m-0 flex-grow-1 text-white uppercase">13 Members</p>
+						</div>
+						<a href="#">
+							<span class="add-member fas fa-user-plus"></span>
+						</a>
+					</div>
+					<div class="list-group">
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/account.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">👊</p>
+	  				  	<p class="last-time m-0 text-primary">online</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/m.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0 align-items-center">Muhammad Javohiraka
+						  		<span class="fas fa-star admin"></span>
+						  	</p>
+	  				  	<p class="last-time m-0">last seen just now</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/abdulbasiraka.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0"> < / 01 > </p>
+	  				  	<p class="last-time m-0">last seen 09:12</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/muhammadyunus.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Muhammad Yunus</p>
+	  				  	<p class="last-time m-0">last seen 09:07</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/doniyoraka.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Doniyor Ibragimov</p>
+	  				  	<p class="last-time m-0">last seen 09:00</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/dildorapa.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Dildorapa</p>
+	  				  	<p class="last-time m-0">last seen 08:39</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/hojiakbaraka.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">HOJIAKBAR SHUKUROV</p>
+	  				  	<p class="last-time m-0">last seen 08:23</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/boburmirzo.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Бобурмирзо</p>
+	  				  	<p class="last-time m-0">last seen 1 hours</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/muhammadaka.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Muhammad</p>
+	  				  	<p class="last-time m-0">last seen 1 hours</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/barca.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">#uk</p>
+	  				  	<p class="last-time m-0">last seen 2 hours</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/rv.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">RV</p>
+	  				  	<p class="last-time m-0">last seen 2 hours</p>
+					  	</div>
+					  </a>
+					  <a href="#" class="d-flex align-items-center py-1 list-group-item bg-dark text-white list-group-item-action">
+					  	<img class="rounded-circle mr-2" src="img/najottalim.jpg" alt="rasm" width="50" height="50">
+					  	<div>					  		
+						  	<p class="member-name m-0">Najot Ta'lim | Administrator
+						  		<span class="admin-1 fas fa-star"></span>
+						  	</p>
+	  				  	<p class="last-time m-0">last seen recently</p>
+					  	</div>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- =========================================== -->
+	<!-- MODAL ACCOUNT -->
+	<!-- =========================================== -->
+	<div class="modal fade" id="accountmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog modal-account" role="document">
+			<div class="modal-content modal-content--account bg-dark text-white">
+				<div class="modal-header modal-header--account p-0">
+					<div class="w-100 p-2"> 			
+						<a href="#">
+							<img class="rounded-circle mr-2" src="img/account.jpg" alt="Your account photo" width="70" height="70" />
+						</a>
+						<div class="w-100 d-flex align-items-center"> 
+							<div class="mr-auto mt-3">      				     				
+								<h4 class="my-2">👊</h4>
+								<p class="m-0">+998 97 766 60 63</p>
+							</div>
+							<a class="span-bookmark btn rounded-circle" href="#"><span class="fas fa-bookmark"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body d-flex flex-column p-0">
+					<div class="list-group list-group-flush">
+						<a class="user-account list-group-item bg-dark text-white" href="#">
+							<span class="mr-3 fas fa-user-friends"></span>
+							New Group
+						</a>
+						<a class="user-account list-group-item bg-dark text-white" href="#">
+							<span class="mr-3 fas fa-bullhorn"></span>
+							New Channel
+						</a>
+						<a class="user-account list-group-item bg-dark text-white" href="#">
+							<span class="mr-3 fas fa-user"></span>
+							Contacts
+						</a>
+						<a class="user-account list-group-item bg-dark text-white" href="#">
+							<span class="mr-3 fas fa-phone-alt"></span>
+							Calls
+						</a>
+						<a class="user-account list-group-item bg-dark text-white" href="#">
+							<span class="mr-3 fas fa-cog"></span>
+							Settings
+						</a>
+						<label class="dark-mode list-group-item list-group-item-action bg-dark d-flex text-white">
+							<span class="mr-3 fas fa-moon"></span>
+							<p class="flex-grow-1 m-0">Dark mode</p>
+							<div class="custom-control custom-switch">
+								<input type="checkbox" class="custom-control-input" checked id="customSwitch1">
+								<div class="custom-control-label" for="customSwitch1"></div>							
+							</div>
+						</label>					  
+					</div>
+					<div class="modal-footer modal-footer--account mt-auto d-flex flex-column">
+						<a href="#">Telegram Desktop</a>
+						<div>
+							<a href="#">Version 1.9.3</a> -
+							<a href="#">About</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.4.1.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+	</html>

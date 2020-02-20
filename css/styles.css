@@ -1,0 +1,327 @@
+.chat{
+	height: 100vh;
+	overflow: auto;
+	padding-top: 50px;
+}
+.fixed-top--chat{
+	width: 25%;
+}
+.channel-info,
+.name-info{
+	overflow: hidden;
+}
+.channel-info{
+	position: relative;
+}
+.channel-info img {
+	width: 43px;
+	height: auto;
+}
+.channel-name{
+	font-size: 15px;
+}
+.time{
+	font-size: 12px;
+}
+.channel-text{
+	font-size: 13px;
+	color: #aaa;
+}
+.channel-text--active{
+	color: #fff;
+}
+.time{
+	color: #ccc;
+}
+.clip{
+	flex-grow: 1;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+}	
+/*=============================*/
+/*SCROLLBAR*/
+/*=============================*/
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.online::after{
+	position: absolute;
+	bottom: 5px;
+	left: 11.5%;
+	width: 11px;
+	height: 12px;
+	background-color: #3b75bc;
+	border: 1px solid #000;
+	border-radius: 50%;
+	content: ""
+}
+/*==============================
+GROUP
+==============================*/
+.group-content{
+	width: 75%;
+	height: 100vh;
+}
+.modal-dialog-scrollable .modal-content {
+    max-height: 100vh !important;
+ }
+.fixed-top--group{
+	width: 58.5%;
+	margin-left: 25%;
+}
+.header-heading{
+	font-size: 18px;
+}
+.header-heading:hover{
+	text-decoration: none;
+}
+.members{
+	font-size: 12px;
+	color: #aaa;
+	margin: 0;
+}
+.uchnuqta{
+	color: #aaa;
+}
+.exit span{
+	color: #aaa;
+}
+.notifications{
+	padding: 15px 20px;
+	cursor: pointer;
+	border-top: 10px solid #4b535a;
+	border-bottom: 10px solid #4b535a;
+}
+.medies{
+	border-bottom: 10px solid #4b535a;
+}
+.medies a:hover{
+	text-decoration: none;
+}
+.icon-media{
+	color: grey;
+}
+.media{
+	font-size: 14px;
+	color: #aaa;
+}
+.icon-members{
+	color: grey;
+}
+.add-member{
+	color: grey;
+}
+.group-members:hover{
+	text-decoration: none;
+}
+.member-name{
+	font-size: 14px;
+}
+.last-time{
+	font-size: 12px;
+	color: #aaa;
+}
+.admin{
+	font-size: 9px;
+	color: grey;
+}
+.admin-1{
+	font-size: 10px;
+	color: gold;
+}
+.group-body{	
+	height: 91.8vh;
+	overflow: auto;
+	padding: 50px 10px 5px;
+	background-image: url(../img/bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.msg-user{
+	position: relative;
+}
+.msg{
+	max-width: 55%;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.msg-before::before{
+	position: absolute;
+	bottom: 10px;
+	left: 52px;
+	border-top: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #343a40;
+	content: "";
+}
+.msg-mine::before{
+	position: absolute;
+	bottom: 10px;
+	right: 55px;
+	border-top: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #343a40;
+	content: "";
+}
+.group-msg{
+	color: #fff;
+	font-size: 13px;
+}
+.msg-img{
+	width: 100%;
+	height: auto;
+}
+.msg-reply{
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.reply{
+	margin-bottom: 5px;
+	padding-left: 13px;
+	border-left: 2px solid skyblue;
+}
+.date{
+	width: 75px;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 5px 7px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 12px;
+	color: #eee;
+	background-color: rgba(0,0,0,0.6);
+}
+.chat-time{
+	margin: 7px 0 0;
+	color: #fff;
+	font-size: 10px;
+	text-align: right;
+}
+.check{
+	font-size: 12px;
+}
+.custom-file--group{
+	width: 50px;
+}
+.custom-file-label::after{
+	display: none;
+}
+.smile:hover{
+	color: #fff;
+}
+.send{
+	color: #fff;
+}
+.send:hover{
+	color: skyblue;
+}
+.dropdown-item {
+	color: #fff;
+}
+.dropdown-item:hover{
+	color: black;
+}
+/*=============================
+SMILE
+=============================*/
+.fixed-top--smile{
+	width: 16.5%;
+	margin-left: auto;
+}
+.scrollspy-example{
+	margin-top: 54px;
+	height: 84vh;
+	overflow-x: auto;
+
+}
+.scrollspy-example	h4{
+		font-size: 16px;
+		color: grey;
+}
+.emoji-active{
+	border-bottom: 2px solid orange;
+}
+.emojies{
+	flex-direction: row;
+	overflow: auto;
+}
+.emojies .list-group-item{
+	padding: 1px;
+	text-align: center;
+	border: none;
+	border-radius: 0;
+	background-color: #343a40;
+}
+.smilies a{
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+}
+.smilies a:hover{
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+/*============================
+MODAL-ACCOUNT
+============================*/
+.modal-account{
+	width: 25%;
+	margin: 0;
+}
+.modal-content--account{
+	height: 100vh;
+	overflow: auto;
+}
+.modal-header--account{
+	border: none;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.modal-header--account img{
+	margin: 0;
+}
+.span-bookmark{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+.modal-footer--account{
+	border: none;
+}
+.modal-footer--account a{
+	color: #ccc;
+}
+.user-account{
+	font-size: 14px;
+	align-items: center;
+}
+.user-account:hover{
+	text-decoration: none;
+}
+.modal-footer a{
+	font-size: 14px;
+}
+.dark-mode{
+	cursor: pointer;
+}
